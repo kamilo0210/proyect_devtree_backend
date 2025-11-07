@@ -1,9 +1,9 @@
 {
   "name": "devtree",
   "version": "1.0.0",
-  "description": "Primer Proyecto con Express y Typescript",
+  "description": "Proyecto de Desarrollo de Software 2",
   "license": "ISC",
-  "author": "Juan Pablo Robayo",
+  "author": "Grupo 1",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
