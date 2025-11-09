@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762672937503" clover="3.2.0">
-  <project timestamp="1762672937503" name="All files">
-    <metrics statements="43" coveredstatements="29" conditionals="6" coveredconditionals="4" methods="4" coveredmethods="1" elements="53" coveredelements="34" complexity="0" loc="43" ncloc="43" packages="3" files="3" classes="3"/>
+<coverage generated="1762673781530" clover="3.2.0">
+  <project timestamp="1762673781530" name="All files">
+    <metrics statements="43" coveredstatements="31" conditionals="6" coveredconditionals="4" methods="4" coveredmethods="2" elements="53" coveredelements="37" complexity="0" loc="43" ncloc="43" packages="3" files="3" classes="3"/>
     <package name="handlers">
       <metrics statements="35" coveredstatements="23" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="1"/>
       <file name="index.ts" path="/workspaces/proyect_devtree_backend/src/handlers/index.ts">
@@ -54,13 +54,13 @@
       </file>
     </package>
     <package name="utils">
-      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="jwt.ts" path="/workspaces/proyect_devtree_backend/src/utils/jwt.ts">
-        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
   </project>
