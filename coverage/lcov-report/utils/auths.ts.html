@@ -90,9 +90,9 @@ export const hashPassword = <span class="fstat-no" title="function not covered" 
 <span class="cstat-no" title="statement not covered" >    return await bcrypt.hash(password, salt)</span>
 }
 &nbsp;
-export const checkPassword = async (enterPassword:string, hash:string) =&gt; { 
-    const result = await bcrypt.compare(enterPassword, hash)
-    return result
+export const checkPassword = <span class="fstat-no" title="function not covered" >async </span>(enterPassword:string, hash:string) =&gt; { 
+    const result = <span class="cstat-no" title="statement not covered" >await bcrypt.compare(enterPassword, hash)</span>
+<span class="cstat-no" title="statement not covered" >    return result</span>
 }</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
