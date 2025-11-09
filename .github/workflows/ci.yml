@@ -51,13 +51,11 @@ jobs:
 
       - name: Run SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
-        with:
-          projectBaseDir: .
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # Configuración SonarCloud
         with:
+          projectBaseDir: .
           args: >
             -Dsonar.projectKey=kamilo0210_proyect_devtree_backend
             -Dsonar.organization=kamilo0210
@@ -69,3 +67,4 @@ jobs:
             -Dsonar.sourceEncoding=UTF-8
             -Dsonar.exclusions=**/node_modules/**,**/dist/**
             -Dsonar.branch.name=develop
+
