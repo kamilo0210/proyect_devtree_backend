@@ -2,9 +2,7 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  transformIgnorePatterns: [
-    '/node_modules/(?!(slug)/)', // 👈 permite que Jest transforme el paquete "slug"
-  ],
+  transformIgnorePatterns: ['/node_modules/(?!(slug)/)'],
   testMatch: ['**/src/tests/**/*.test.ts'],
   collectCoverage: true,
   coverageDirectory: 'coverage',
