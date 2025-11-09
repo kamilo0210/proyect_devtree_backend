@@ -1,3 +1,5 @@
+// Unit Test by Felipe
+
 import { generateJWT } from "../utils/jwt";
 import jwt from "jsonwebtoken";
 
