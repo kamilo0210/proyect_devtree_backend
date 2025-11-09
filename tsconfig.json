@@ -1,16 +1,18 @@
 {
-    "compilerOptions": {
-        "outDir": "dist",
-        "rootDir": "./src",
-        "isolatedModules": true,
-        "lib": ["ESNext"],
-        "target": "ESNext",
-        "moduleResolution": "NodeNext",
-        "module": "NodeNext",
-        "strict": false,
-        "sourceMap": true,
-        "esModuleInterop": true,
-        "declaration": true,
-    },
-    "include": ["src/**/*.ts"]
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "./src",
+    "isolatedModules": true,
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "strict": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "types": ["node", "jest"],
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["src", "tests"]
 }
