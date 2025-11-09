@@ -1,7 +1,9 @@
 import User from "../models/User"
 import {Request} from 'express'
 import { checkPassword, hashPassword } from "../utils/auths"
-import slug from 'slug'
+import slugPkg from 'slug';
+const slug = (slugPkg as any).default || slugPkg;
+
 import { generateJWT } from "../utils/jwt"
 
 
