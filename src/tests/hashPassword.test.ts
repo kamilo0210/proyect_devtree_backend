@@ -1,3 +1,5 @@
+// Unit test created by Juan Pablo
+
 import { hashPassword } from "../utils/auths";
 import bcrypt from "bcrypt";
 
