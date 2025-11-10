@@ -1,3 +1,5 @@
+// Unit test created by Enrique
+
 import { getUser } from "../handlers/index";
 
 describe("getUser", () => {
