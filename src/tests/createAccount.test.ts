@@ -1,3 +1,5 @@
+// Unit test created by Cristian
+
 import { createAccount } from "../handlers/index";
 import User from "../models/User";
 import { hashPassword } from "../utils/auths";
